@@ -24,7 +24,7 @@ public class PlayerDetection : MonoBehaviour
 
     private IEnumerator HidePlaneAfterDelay()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(5);
         plane.SetActive(false);
         isTriggered = false;  // Reset the trigger state
     }
